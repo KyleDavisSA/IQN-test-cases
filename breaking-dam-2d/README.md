@@ -1,8 +1,7 @@
 ---
-title: Elastic tube 3D
-permalink: tutorials-elastic-tube-3d.html
-keywords: FSI, OpenFOAM, CalculiX, nearest-projection, IMVJ
-summary: Tutorial for an FSI simulation of a three-dimensional expanding tube scenario
+title: Breaking Dam 2D
+keywords: FSI, OpenFOAM, CalculiX, Multiphase, IQN-ILS
+summary: Tutorial for a breaking dam FSI with water and air
 ---
 
 {% include note.html content="Get the [case files of this tutorial](https://github.com/precice/tutorials/tree/master/elastic-tube-3d). Read how in the [tutorials introduction](https://www.precice.org/tutorials.html)." %}
