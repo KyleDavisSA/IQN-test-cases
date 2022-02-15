@@ -21,3 +21,11 @@ The `baseline` and `prescale freeze` folders are to be run with preCICE [v2.3.0]
 Within the folders, are the precice configuration files. Each file is named `precice-config_FilterType-FilterLimit.xml`. Here, the `FilterType` is either the `QR2` filter, or the `QR3` filter, which utilises the new preconditioner weight monitoring. The `FilterLimit` is either `= 0.001`, `= 0.01` or `= 0.1` depending on the test case.
 
 Each file must be copied into the test case folder (i.e. into `IQN-test-cases/breaking-dam-2d/` or `IQN-test-cases/elastice-tube-3d-linear/` ) and renamed to `precice-config-xml` to reproduce the simulation results. A default configuration file is currently in each test case folder.
+
+The following software version were used in the study:
+1. Ubuntu 20.04.3 LTS - 64 bit
+2. Boost 1.17.0
+3. Eigen 3.3.7
+4. PETSc 3.13.3
+5. Python 3.8.10
+6. openMPI v4.0.3
