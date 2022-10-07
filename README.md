@@ -1,6 +1,6 @@
 # IQN-test-cases
 
-This repository contains ready to run test cases to reproduce the results for studying the quasi-Newton improvements in [preCICE](https://github.com/precice/precice). The `elastic-tube-3d-quad` is the elastic tube test case from the preCICE [tutorials](https://github.com/precice/tutorials). The test cases contain all solver settings and meshes, as well as run scripts for all solvers.
+This repository contains ready to run test cases to reproduce the results for studying the [quasi-Newton enhancements]{https://www.mdpi.com/2297-8747/27/3/40} in [preCICE](https://github.com/precice/precice). The `elastic-tube-3d-quad` is the elastic tube test case from the preCICE [tutorials](https://github.com/precice/tutorials). The test cases contain all solver settings and meshes, as well as run scripts for all solvers.
 
 In order to reproduce the results, the necessary preCICE configuration files are provided in the folder `configuration-files` within each test case. The four test cases are: 
 1. elastice-tube-3d-linear
